@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "image": "https://res.cloudinary.com/dqyqjbuku/image/upload/v1722662743/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9_ldauiq.jpg",
+      "title": "Beautiful Family House",
+      "description": "A beautiful family house in the suburbs.",
+      "price": 500000,
+      "location": "New York",
+      "bedrooms": 4,
+      "amenities": ["Pool", "Garage", "Garden"]
+    },
+    {
+      "id": 2,
+      "image": "https://res.cloudinary.com/dqyqjbuku/image/upload/v1722665757/flor-apt-living-_2_-hero.jpg_hzzos1.jpg",
+      "title": "Modern Apartment",
+      "description": "A modern apartment in the city center.",
+      "price": 300000,
+      "location": "Los Angeles",
+      "bedrooms": 2,
+      "amenities": ["Gym", "Balcony"]
+    },
+    {
+      "id":3,
+      "image": "https://res.cloudinary.com/dqyqjbuku/image/upload/v1722665757/flor-apt-living-_2_-hero.jpg_hzzos1.jpg",
+      "title": "Luxury Penthouse",
+      "description": "A luxury penthouse with a great view.",
+      "price": 1000000,
+      "location": "New York",
+      "bedrooms": 3,
+      "amenities": ["Pool", "Gym", "Balcony"]
+    },
+    {
+      "id":4,
+      "image": "https://res.cloudinary.com/dqyqjbuku/image/upload/v1722662743/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9_ldauiq.jpg",
+      "title": "Beautiful Family House",
+      "description": "A beautiful family house in the suburbs.",
+      "price": 600000,
+      "location": "Los Angeles",
+      "bedrooms": 5,
+      "amenities": ["Pool", "Garage", "Garden"]
+    }
+  ]
+  

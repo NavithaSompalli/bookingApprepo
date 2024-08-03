@@ -1,0 +1,92 @@
+.nav-bar-container {
+    height: 10vh;
+    background-color: #a3c1ad;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5%;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.nav-bar-container .nav-link button {
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size:18px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.nav-mobile-view {
+    display: none;
+}
+
+@media (max-width: 786px) {
+    .nav-bar-container {
+        display: none;
+    }
+    .nav-mobile-view {
+        display: flex;
+        height: 10vh;
+        background-color: #a3c1ad;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 10%;
+        align-items: center; 
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nav-bool-view {
+        display: flex;
+        height: auto; 
+        background-color: #a3c1ad;
+        flex-direction: column;
+        justify-content: flex-start; 
+        gap: 10%;
+        align-items: flex-start; 
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .nav-bool-view .mobile-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%; 
+    }
+    
+    .nav-bool-view .mobile-menu li {
+        padding: 10px;
+    }
+    
+    .nav-bool-view .nav-link button {
+        width: 100%; 
+        text-align: left;
+        border: none;
+        background-color: transparent;
+        font-family: "Roboto";
+        font-size:20px;
+        margin-left: 30px;
+    }
+
+    .close-button{
+        align-self: flex-end;
+        margin-right:10px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .icon{
+        font-size: 20px;
+        
+    }
+}
