@@ -3,7 +3,7 @@ import { useCart } from '../../contexts/CartContext';
 import './index.css'; // Make sure to style the form as needed
 
 const CheckoutForm = () => {
-  const { cartItems, totalCost } = useCart();
+  const { cartItems, totalCost,clearCart} = useCart();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -37,6 +37,9 @@ const CheckoutForm = () => {
     alert('Your payment was successful')
 
     setFormData(initialFormState)
+
+    clearCart();
+
 
     console.log('Form submitted:', formData);
   };
